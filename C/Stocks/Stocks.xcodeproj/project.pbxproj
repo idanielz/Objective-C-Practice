@@ -11,6 +11,8 @@
 		A07BF1221824F5A6000B7B54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A07BF1211824F5A6000B7B54 /* main.m */; };
 		A07BF1261824F5A6000B7B54 /* Stocks.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A07BF1251824F5A6000B7B54 /* Stocks.1 */; };
 		A07BF1341824F620000B7B54 /* StockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = A07BF1331824F620000B7B54 /* StockHolding.m */; };
+		A089720E182E1D3700D80566 /* ForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = A089720D182E1D3700D80566 /* ForeignStockHolding.m */; };
+		A0897211182E23C400D80566 /* Portfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = A0897210182E23C400D80566 /* Portfolio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		A07BF1251824F5A6000B7B54 /* Stocks.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Stocks.1; sourceTree = "<group>"; };
 		A07BF1321824F620000B7B54 /* StockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockHolding.h; sourceTree = "<group>"; };
 		A07BF1331824F620000B7B54 /* StockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockHolding.m; sourceTree = "<group>"; };
+		A089720C182E1D3700D80566 /* ForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForeignStockHolding.h; path = ../ForeignStockHolding.h; sourceTree = "<group>"; };
+		A089720D182E1D3700D80566 /* ForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForeignStockHolding.m; path = ../ForeignStockHolding.m; sourceTree = "<group>"; };
+		A089720F182E23C400D80566 /* Portfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Portfolio.h; path = ../Portfolio.h; sourceTree = "<group>"; };
+		A0897210182E23C400D80566 /* Portfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Portfolio.m; path = ../Portfolio.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,10 @@
 		A07BF1201824F5A6000B7B54 /* Stocks */ = {
 			isa = PBXGroup;
 			children = (
+				A089720F182E23C400D80566 /* Portfolio.h */,
+				A0897210182E23C400D80566 /* Portfolio.m */,
+				A089720C182E1D3700D80566 /* ForeignStockHolding.h */,
+				A089720D182E1D3700D80566 /* ForeignStockHolding.m */,
 				A07BF1211824F5A6000B7B54 /* main.m */,
 				A07BF1251824F5A6000B7B54 /* Stocks.1 */,
 				A07BF1231824F5A6000B7B54 /* Supporting Files */,
@@ -144,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0897211182E23C400D80566 /* Portfolio.m in Sources */,
+				A089720E182E1D3700D80566 /* ForeignStockHolding.m in Sources */,
 				A07BF1341824F620000B7B54 /* StockHolding.m in Sources */,
 				A07BF1221824F5A6000B7B54 /* main.m in Sources */,
 			);
@@ -257,6 +269,7 @@
 				A07BF12B1824F5A6000B7B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -26,6 +26,7 @@
         assets = [[NSMutableArray alloc] init];
     }
     [assets addObject:a];
+    [a setHolder:self];//反向调用所有者对象，导致Retain循环，对象无法释放，内存泄露
 }
 
 - (unsigned int)valueOfAssets

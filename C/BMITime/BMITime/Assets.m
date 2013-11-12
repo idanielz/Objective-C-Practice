@@ -7,18 +7,25 @@
 //
 
 #import "Assets.h"
+#import "Employee.h"
 
 @implementation Assets
 
-@synthesize label, resaleValue;
+@synthesize label, resaleValue, holder;
 
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"< %@: $%d >", [self label], [self resaleValue]];
+    //return [NSString stringWithFormat:@"< %@: $%d >", [self label], [self resaleValue]];
+    if (holder)
+        return [NSString stringWithFormat:@"< %@: $%d is assigned to %@ >", [self label], [self resaleValue], [self holder]];
+    else
+        return [NSString stringWithFormat:@"< %@: $%d is unassigned >", [self label], [self resaleValue]];
 }
 
 - (void)dealloc
 {
     NSLog(@"deallocating %@", self);
 }
+
+
 @end

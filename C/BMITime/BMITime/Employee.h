@@ -8,11 +8,19 @@
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
+@class Assets;
+
 @interface Employee : Person
 {
     int employID;
+    NSMutableArray *assets;
 }
 @property int employID;
 
 - (float)bodyMassIndex;
+
+- (void)addAssetsObject:(Assets *)a;
+
+- (unsigned int)valueOfAssets;
+
 @end

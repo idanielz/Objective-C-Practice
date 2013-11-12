@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A02F8F8C182E4A0100AFABEA /* Assets.m in Sources */ = {isa = PBXBuildFile; fileRef = A02F8F8B182E4A0100AFABEA /* Assets.m */; };
 		A07BF1021824F2C9000B7B54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07BF1011824F2C9000B7B54 /* Foundation.framework */; };
 		A07BF1051824F2C9000B7B54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A07BF1041824F2C9000B7B54 /* main.m */; };
 		A07BF1091824F2C9000B7B54 /* BMITime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A07BF1081824F2C9000B7B54 /* BMITime.1 */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A02F8F8A182E4A0100AFABEA /* Assets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assets.h; sourceTree = "<group>"; };
+		A02F8F8B182E4A0100AFABEA /* Assets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assets.m; sourceTree = "<group>"; };
 		A07BF0FE1824F2C9000B7B54 /* BMITime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BMITime; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07BF1011824F2C9000B7B54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A07BF1041824F2C9000B7B54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				A07BF1101824F2F8000B7B54 /* Person.m */,
 				A07BF1351824FD5B000B7B54 /* Employee.h */,
 				A07BF1361824FD5B000B7B54 /* Employee.m */,
+				A02F8F8A182E4A0100AFABEA /* Assets.h */,
+				A02F8F8B182E4A0100AFABEA /* Assets.m */,
 			);
 			path = BMITime;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				A07BF1371824FD5B000B7B54 /* Employee.m in Sources */,
 				A07BF1111824F2F8000B7B54 /* Person.m in Sources */,
+				A02F8F8C182E4A0100AFABEA /* Assets.m in Sources */,
 				A07BF1051824F2C9000B7B54 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +269,7 @@
 				A07BF10E1824F2C9000B7B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

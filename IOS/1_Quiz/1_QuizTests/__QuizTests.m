@@ -1,18 +1,18 @@
 //
-//  HelloWorldTests.m
-//  HelloWorldTests
+//  __QuizTests.m
+//  1_QuizTests
 //
-//  Created by DanielZ on 13-10-24.
+//  Created by DanielZ on 13-11-24.
 //  Copyright (c) 2013年 DanielZ. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface HelloWorldTests : XCTestCase
+@interface __QuizTests : XCTestCase
 
 @end
 
-@implementation HelloWorldTests
+@implementation __QuizTests
 
 - (void)setUp
 {

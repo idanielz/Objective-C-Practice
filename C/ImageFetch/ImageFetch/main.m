@@ -31,6 +31,8 @@ int main(int argc, const char * argv[])
             NSLog(@"write failed : %@", [error localizedDescription]);
             return 1;
         }
+        NSData *readData = [ NSData dataWithContentsOfFile:@"/tmp/baidu.gif"];
+        NSLog(@"The file read from the disk has %lu bytes", [readData length]);
     }
     return 0;
 }

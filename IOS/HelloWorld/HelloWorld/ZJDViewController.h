@@ -2,14 +2,17 @@
 //  ZJDViewController.h
 //  HelloWorld
 //
-//  Created by DanielZ on 13-10-24.
+//  Created by DanielZ on 13-11-23.
 //  Copyright (c) 2013年 DanielZ. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ZJDViewController : UIViewController
+@interface ZJDViewController : UIViewController <UITextFieldDelegate, UIAlertViewDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+@property (weak, nonatomic) IBOutlet UIButton *myButton;
+@property (weak, nonatomic) IBOutlet UITextField *myText;
+- (IBAction)onClick:(id)sender;
 
-- (IBAction)doBtnHide:(id)sender;
-@property (weak, nonatomic) IBOutlet UILabel *lblHelloWorld;
+- (NSString *)getFullName : (NSString *) firstName LastName : (NSString *) lastName;
 @end

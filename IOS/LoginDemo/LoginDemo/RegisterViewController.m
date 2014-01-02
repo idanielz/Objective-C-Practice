@@ -59,11 +59,23 @@
         [self.navigationController popViewControllerAnimated:YES];
     }
     else{
-        UIAlertView *notMatchAlert = [[UIAlertView alloc]initWithTitle:@"错误" message:@"两次输入的密码不匹配，请重新输入！"  delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil ];
+        UIAlertView *notMatchAlert = [[UIAlertView alloc]initWithTitle:@"错误" message:@"两次输入的密码不一致，请重新输入！"  delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil ];
 		[notMatchAlert show];
 		notMatchAlert = nil;
     }
 
+}
+
+- (IBAction)finishUsername:(id)sender {
+    [firstPassField becomeFirstResponder];
+}
+
+- (IBAction)finishFirstPass:(id)sender {
+    [secondPassField becomeFirstResponder];
+}
+
+- (IBAction)finishRegister:(id)sender {
+    [secondPassField resignFirstResponder];
 }
 
 @end

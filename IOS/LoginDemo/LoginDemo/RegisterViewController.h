@@ -15,4 +15,7 @@
 @property (strong, nonatomic) NSMutableDictionary *userDict;
 @property (strong, nonatomic) NSString *userInfoFile;
 - (IBAction)registerAccount:(id)sender;
+- (IBAction)finishUsername:(id)sender;
+- (IBAction)finishFirstPass:(id)sender;
+- (IBAction)finishRegister:(id)sender;
 @end

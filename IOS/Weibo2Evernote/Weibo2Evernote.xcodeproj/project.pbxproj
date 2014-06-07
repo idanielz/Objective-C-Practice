@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0F4EDF7190003430099D4FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F4EDF6190003430099D4FF /* Foundation.framework */; };
+		A0F4EDF9190003430099D4FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F4EDF8190003430099D4FF /* CoreGraphics.framework */; };
+		A0F4EDFB190003430099D4FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F4EDFA190003430099D4FF /* UIKit.framework */; };
+		A0F4EE01190003430099D4FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0F4EDFF190003430099D4FF /* InfoPlist.strings */; };
+		A0F4EE03190003430099D4FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F4EE02190003430099D4FF /* main.m */; };
+		A0F4EE07190003430099D4FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F4EE06190003430099D4FF /* AppDelegate.m */; };
+		A0F4EE0A190003430099D4FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F4EE08190003430099D4FF /* Main.storyboard */; };
+		A0F4EE0D190003430099D4FF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F4EE0C190003430099D4FF /* FirstViewController.m */; };
+		A0F4EE10190003430099D4FF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F4EE0F190003430099D4FF /* SecondViewController.m */; };
+		A0F4EE12190003430099D4FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F4EE11190003430099D4FF /* Images.xcassets */; };
+		A0F4EE19190003430099D4FF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F4EE18190003430099D4FF /* XCTest.framework */; };
+		A0F4EE1A190003430099D4FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F4EDF6190003430099D4FF /* Foundation.framework */; };
+		A0F4EE1B190003430099D4FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F4EDFA190003430099D4FF /* UIKit.framework */; };
+		A0F4EE23190003430099D4FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0F4EE21190003430099D4FF /* InfoPlist.strings */; };
+		A0F4EE25190003430099D4FF /* Weibo2EvernoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F4EE24190003430099D4FF /* Weibo2EvernoteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0F4EE1C190003430099D4FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0F4EDEB190003430099D4FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0F4EDF2190003430099D4FF;
+			remoteInfo = Weibo2Evernote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0F4EDF3190003430099D4FF /* Weibo2Evernote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo2Evernote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F4EDF6190003430099D4FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0F4EDF8190003430099D4FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0F4EDFA190003430099D4FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0F4EDFE190003430099D4FF /* Weibo2Evernote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Weibo2Evernote-Info.plist"; sourceTree = "<group>"; };
+		A0F4EE00190003430099D4FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0F4EE02190003430099D4FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0F4EE04190003430099D4FF /* Weibo2Evernote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weibo2Evernote-Prefix.pch"; sourceTree = "<group>"; };
+		A0F4EE05190003430099D4FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0F4EE06190003430099D4FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0F4EE09190003430099D4FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0F4EE0B190003430099D4FF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A0F4EE0C190003430099D4FF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A0F4EE0E190003430099D4FF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A0F4EE0F190003430099D4FF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A0F4EE11190003430099D4FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0F4EE17190003430099D4FF /* Weibo2EvernoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Weibo2EvernoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F4EE18190003430099D4FF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A0F4EE20190003430099D4FF /* Weibo2EvernoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Weibo2EvernoteTests-Info.plist"; sourceTree = "<group>"; };
+		A0F4EE22190003430099D4FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0F4EE24190003430099D4FF /* Weibo2EvernoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Weibo2EvernoteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0F4EDF0190003430099D4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F4EDF9190003430099D4FF /* CoreGraphics.framework in Frameworks */,
+				A0F4EDFB190003430099D4FF /* UIKit.framework in Frameworks */,
+				A0F4EDF7190003430099D4FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F4EE14190003430099D4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F4EE19190003430099D4FF /* XCTest.framework in Frameworks */,
+				A0F4EE1B190003430099D4FF /* UIKit.framework in Frameworks */,
+				A0F4EE1A190003430099D4FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0F4EDEA190003430099D4FF = {
+			isa = PBXGroup;
+			children = (
+				A0F4EDFC190003430099D4FF /* Weibo2Evernote */,
+				A0F4EE1E190003430099D4FF /* Weibo2EvernoteTests */,
+				A0F4EDF5190003430099D4FF /* Frameworks */,
+				A0F4EDF4190003430099D4FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0F4EDF4190003430099D4FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4EDF3190003430099D4FF /* Weibo2Evernote.app */,
+				A0F4EE17190003430099D4FF /* Weibo2EvernoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0F4EDF5190003430099D4FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4EDF6190003430099D4FF /* Foundation.framework */,
+				A0F4EDF8190003430099D4FF /* CoreGraphics.framework */,
+				A0F4EDFA190003430099D4FF /* UIKit.framework */,
+				A0F4EE18190003430099D4FF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0F4EDFC190003430099D4FF /* Weibo2Evernote */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4EE05190003430099D4FF /* AppDelegate.h */,
+				A0F4EE06190003430099D4FF /* AppDelegate.m */,
+				A0F4EE08190003430099D4FF /* Main.storyboard */,
+				A0F4EE0B190003430099D4FF /* FirstViewController.h */,
+				A0F4EE0C190003430099D4FF /* FirstViewController.m */,
+				A0F4EE0E190003430099D4FF /* SecondViewController.h */,
+				A0F4EE0F190003430099D4FF /* SecondViewController.m */,
+				A0F4EE11190003430099D4FF /* Images.xcassets */,
+				A0F4EDFD190003430099D4FF /* Supporting Files */,
+			);
+			path = Weibo2Evernote;
+			sourceTree = "<group>";
+		};
+		A0F4EDFD190003430099D4FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4EDFE190003430099D4FF /* Weibo2Evernote-Info.plist */,
+				A0F4EDFF190003430099D4FF /* InfoPlist.strings */,
+				A0F4EE02190003430099D4FF /* main.m */,
+				A0F4EE04190003430099D4FF /* Weibo2Evernote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0F4EE1E190003430099D4FF /* Weibo2EvernoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4EE24190003430099D4FF /* Weibo2EvernoteTests.m */,
+				A0F4EE1F190003430099D4FF /* Supporting Files */,
+			);
+			path = Weibo2EvernoteTests;
+			sourceTree = "<group>";
+		};
+		A0F4EE1F190003430099D4FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4EE20190003430099D4FF /* Weibo2EvernoteTests-Info.plist */,
+				A0F4EE21190003430099D4FF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0F4EDF2190003430099D4FF /* Weibo2Evernote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F4EE28190003430099D4FF /* Build configuration list for PBXNativeTarget "Weibo2Evernote" */;
+			buildPhases = (
+				A0F4EDEF190003430099D4FF /* Sources */,
+				A0F4EDF0190003430099D4FF /* Frameworks */,
+				A0F4EDF1190003430099D4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weibo2Evernote;
+			productName = Weibo2Evernote;
+			productReference = A0F4EDF3190003430099D4FF /* Weibo2Evernote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0F4EE16190003430099D4FF /* Weibo2EvernoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F4EE2B190003430099D4FF /* Build configuration list for PBXNativeTarget "Weibo2EvernoteTests" */;
+			buildPhases = (
+				A0F4EE13190003430099D4FF /* Sources */,
+				A0F4EE14190003430099D4FF /* Frameworks */,
+				A0F4EE15190003430099D4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0F4EE1D190003430099D4FF /* PBXTargetDependency */,
+			);
+			name = Weibo2EvernoteTests;
+			productName = Weibo2EvernoteTests;
+			productReference = A0F4EE17190003430099D4FF /* Weibo2EvernoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0F4EDEB190003430099D4FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DanielZ;
+				TargetAttributes = {
+					A0F4EE16190003430099D4FF = {
+						TestTargetID = A0F4EDF2190003430099D4FF;
+					};
+				};
+			};
+			buildConfigurationList = A0F4EDEE190003430099D4FF /* Build configuration list for PBXProject "Weibo2Evernote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0F4EDEA190003430099D4FF;
+			productRefGroup = A0F4EDF4190003430099D4FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0F4EDF2190003430099D4FF /* Weibo2Evernote */,
+				A0F4EE16190003430099D4FF /* Weibo2EvernoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0F4EDF1190003430099D4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F4EE12190003430099D4FF /* Images.xcassets in Resources */,
+				A0F4EE01190003430099D4FF /* InfoPlist.strings in Resources */,
+				A0F4EE0A190003430099D4FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F4EE15190003430099D4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F4EE23190003430099D4FF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0F4EDEF190003430099D4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F4EE10190003430099D4FF /* SecondViewController.m in Sources */,
+				A0F4EE07190003430099D4FF /* AppDelegate.m in Sources */,
+				A0F4EE0D190003430099D4FF /* FirstViewController.m in Sources */,
+				A0F4EE03190003430099D4FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F4EE13190003430099D4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0F4EE25190003430099D4FF /* Weibo2EvernoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0F4EE1D190003430099D4FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0F4EDF2190003430099D4FF /* Weibo2Evernote */;
+			targetProxy = A0F4EE1C190003430099D4FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0F4EDFF190003430099D4FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F4EE00190003430099D4FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0F4EE08190003430099D4FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F4EE09190003430099D4FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0F4EE21190003430099D4FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0F4EE22190003430099D4FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0F4EE26190003430099D4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0F4EE27190003430099D4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0F4EE29190003430099D4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weibo2Evernote/Weibo2Evernote-Prefix.pch";
+				INFOPLIST_FILE = "Weibo2Evernote/Weibo2Evernote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0F4EE2A190003430099D4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weibo2Evernote/Weibo2Evernote-Prefix.pch";
+				INFOPLIST_FILE = "Weibo2Evernote/Weibo2Evernote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A0F4EE2C190003430099D4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Weibo2Evernote.app/Weibo2Evernote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weibo2Evernote/Weibo2Evernote-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Weibo2EvernoteTests/Weibo2EvernoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A0F4EE2D190003430099D4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Weibo2Evernote.app/Weibo2Evernote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weibo2Evernote/Weibo2Evernote-Prefix.pch";
+				INFOPLIST_FILE = "Weibo2EvernoteTests/Weibo2EvernoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0F4EDEE190003430099D4FF /* Build configuration list for PBXProject "Weibo2Evernote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F4EE26190003430099D4FF /* Debug */,
+				A0F4EE27190003430099D4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F4EE28190003430099D4FF /* Build configuration list for PBXNativeTarget "Weibo2Evernote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F4EE29190003430099D4FF /* Debug */,
+				A0F4EE2A190003430099D4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0F4EE2B190003430099D4FF /* Build configuration list for PBXNativeTarget "Weibo2EvernoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F4EE2C190003430099D4FF /* Debug */,
+				A0F4EE2D190003430099D4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0F4EDEB190003430099D4FF /* Project object */;
+}
